@@ -14,7 +14,7 @@
         <p id= "term">Search term: {{search_term or 'None Specified'}}</p>
         <h2>Top Restaurant:</h2> 
         <section>
-            <p id= "name">Restaurant name: {{ restaurant.get('name') }}</p>
+            <h2 id= "name">Restaurant name: {{ restaurant.get('name') }}</h2>
             <img src= "{{ restaurant.get('image_url') }}" width="500" height="600"></img>
             <p id= "address">Address: {{ restaurant.get('display_address') }}</p>
             <p id= "price">Price: {{ restaurant.get('price') }}</p>
