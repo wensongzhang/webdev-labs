@@ -1,0 +1,18 @@
+1. What corrections did you have to make?
+
+One of my corrections is "Document language missing".
+
+2. Given that the photos and captions rely on user-generated content, do you think that the accessibility problems are all solvable? Why or why not?
+
+Yes.
+There is no error shown on the WAVE page, so all the accessibility problems are solved.
+
+3. Do you think your website is usable if you turn off the CSS? Why or why not?
+
+Yes.
+Although the CSS builds up the style of my website, if I turn it off, the whole webpage will lack of structure, but it is still readable. Because all the infomation are still here.
+
+4. Do you think your website is usable if you turn off the images? Why or why not?
+
+Yes.
+If images were turned off, all the other infomation still there, users can keeping using the website without images.

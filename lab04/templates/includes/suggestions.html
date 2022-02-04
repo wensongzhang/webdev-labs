@@ -1,0 +1,55 @@
+<aside>
+	<div id="me">
+		<img id="myphoto", src="{{ user.get('image_url') }}", alt="Avatar", width="80px", height="80px">
+		<h2> {{ user.get('username') }}</h2>
+	</div>
+	<h3>Suggestions for you</h3>
+	<div id="g1">
+		<img id="gi1", src="{{ suggestions[1].get('image_url') }}", alt="p1", width="80px", height="80px">
+		<div>
+			<p>{{ suggestions[1].get('username') }}</p>
+			<p>suggested for you</p>
+		</div>
+		<p><a href="">follow</a></p>
+	</div>
+	<div id="g2">
+		<img id="gi2", src="{{ suggestions[2].get('image_url') }}", alt="p2", width="80px", height="80px">
+		<div>
+			<p>{{ suggestions[2].get('username') }}</p>
+			<p>suggested for you</p>
+		</div>
+		<p><a href="">follow</a></p>
+	</div>
+	<div id="g3">
+		<img id="gi3", src="{{ suggestions[3].get('image_url') }}", alt="p3", width="80px", height="80px">
+		<div>
+			<p>{{ suggestions[3].get('username') }}</p>
+			<p>suggested for you</p>
+		</div>
+		<p><a href="">follow</a></p>
+	</div>
+	<div id="g4">
+		<img id="gi4", src="{{ suggestions[4].get('image_url') }}", alt="p4", width="80px", height="80px">
+		<div>
+			<p>{{ suggestions[4].get('username') }}</p>
+			<p>suggested for you</p>
+		</div>
+		<p><a href="">follow</a></p>
+	</div>
+	<div id="g5">
+		<img id="gi5", src="{{ suggestions[5].get('image_url') }}", alt="p5", width="80px", height="80px">
+		<div>
+			<p>{{ suggestions[5].get('username') }}</p>
+			<p>suggested for you</p>
+		</div>
+		<p><a href="">follow</a></p>
+	</div>
+	<div id="g6">
+		<img id="gi6", src="{{ suggestions[6].get('image_url') }}", alt="p6", width="80px", height="80px">
+		<div>
+			<p>{{ suggestions[6].get('username') }}</p>
+			<p>suggested for you</p>
+		</div>
+		<p><a href="">follow</a></p>
+	</div>
+</aside>

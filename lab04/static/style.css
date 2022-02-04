@@ -1,0 +1,151 @@
+html {
+	background-color: #CCC;
+}
+
+h1, h2, h3 {
+	font-family: Comfortaa;
+}
+
+p {
+	font-family: sans-serif;
+}
+
+#nav-bar {
+	position: fixed;
+	box-sizing: border-box;
+	border: solid 1px #AAA;
+	background-color: #FFF;
+	width: 101%;
+	height: 10vh;
+	margin-left: -1vw;
+	margin-top: -12.5vh;
+	display: flex;
+	justify-content: space-between;
+	padding: 1%;
+}
+
+#photoapp {
+	width: 30%;
+}
+
+#user {
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+}
+
+aside {
+	position: fixed;
+	background-color: #CCC;
+	width: 30vw;
+	height: 80vh;
+	right: 0;
+	margin-top: 0vh;
+	display: flex;
+	flex-direction: column;
+	flex: calc(10% - 10px);
+}
+
+#myphoto, #gi1, #gi2, #gi3, #gi4, #gi5, #gi6 {
+	border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+	aside {
+		position: fixed;
+		background-color: #CCC;
+		width: 30vw;
+		height: 80vh;
+		right: 0;
+		margin-top: 0vh;
+		display: none;
+		flex-direction: column;
+		flex: calc(10% - 10px);
+	}
+	#myphoto, #gi1, #gi2, #gi3, #gi4, #gi5, #gi6 {
+		border-radius: 50%;
+	}
+}
+
+
+#mainpart {
+	margin-top: 12.5vh;
+	margin-left: 10%;
+	width: 55%;
+}
+
+#story {
+	box-sizing: border-box;
+	border: solid 1px #AAA;
+	background-color: #FFF;
+	display: flex;
+	/*justify-content: space-between;*/
+	padding: 1%;
+}
+
+#s1, #s2, #s3, #s4, #s5 {
+	margin: 10px;
+}
+
+#c1, #c2, #c3, #c4 {
+	background-color: #FFF;
+}
+
+#c1, #c2 {
+	box-sizing: border-box;
+	border: solid 1px #AAA;
+}
+
+#si1, #si2, #si3, #si4, #si5 {
+	border-radius: 50%;
+}
+
+#row1, #row2, #row4, #row4_1 {
+	display: flex;
+	justify-content: space-between;
+}
+
+#row1, #row2, #row3, #row4 {
+	padding: 2%;
+}
+
+#me {
+	display: flex;
+}
+
+#g1, #g2, #g3, #g4, #g5, #g6 {
+	display: flex;
+	justify-content: space-between;
+}
+
+#sn1, #sn2, #sn3, #sn4, #sn5 {
+	text-align: center;
+}
+
+a {
+	/*color: #1E90FF;*/
+	color: 0000CD;
+    text-decoration: none;
+}
+
+p.like, p.user {
+	font-weight: bold;
+}
+
+p.content {
+	/*left: 10%;*/
+}
+
+p.user, div.co {
+	display: inline;
+}
+
+p.content, p.more {
+	display: inline;
+}
+
+p.date {
+	color: #AAA;
+	text-transform: uppercase;
+}
+
